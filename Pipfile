@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dataset = "*"
+data-manip = {git = "https://github.com/johnmigliozzi/data_manip"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
